@@ -1,3 +1,5 @@
+[](https://opensource.org/licenses/MIT)
+
 # 3D mRNA Optimization
 
 This repertory narrates a three-dimensional (3D) mRNA optimization algorithm incorporating codon adaptation index (CAI), minimum free energy (MFE), and most notably, codon pair bias (CPB) for enhanced vaccine potency. The algorithm is implemented in the paper:
