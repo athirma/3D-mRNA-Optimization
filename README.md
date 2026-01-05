@@ -18,3 +18,48 @@ Previously, only the codon optimization strategy focusing on CAI had been intens
 - **Modular design** for easy integration into existing pipelines
 - **Comprehensive validation** against SARS-CoV-2 Spike protein sequences
 
+## 🔧 Modules Description
+**1. Codon Pair Optimization** (src/Codonpair_Optimal.py)
+
+Implements the core iterative optimization algorithm that:
+- Starts with LinearDesign-generated baseline sequences
+- Systematically replaces low-frequency codon pairs
+- Maintains optimal CAI and MFE values during optimization
+
+**2. CPB Calculation** (src/Cpb_Calculation.py)
+
+Computes Codon Pair Bias scores based on:
+- Human genome codon pair frequency statistics
+- Normalized CPB scoring methodology
+- Batch processing for multiple sequences
+
+## 📊 External Tool Integration
+
+The algorithm integrates with established bioinformatics tools:
+- **MFE Calculation**: RNAfold Web Server
+- **CAI Calculation**: EMBOSS CAI Tool
+- **Sequence Analysis**: BioPython compatibility
+
+## 🧪 Validation Data
+
+The algorithm has been validated using:
+- SARS-CoV-2 Spike protein (prototype and EG.5 variant)
+- _In vitro_ protein expression assays
+- _In vivo_ immunogenicity studies in mouse models
+
+## 📋 Dependencies
+- Python 3.8+
+- BioPython >= 1.79
+- pandas >= 1.3.0
+- NumPy >= 1.21.0
+
+See **requirements.txt** for complete list.
+
+## 🤝 Contributing
+We welcome contributions! Please see our **Contributing Guidelines** for details.
+
+## 📜 License
+This project is licensed under the MIT License - see the **LICENSE** file for details.
+
+## 📞 Contact
+**Gong Cheng** (Corresponding Author) - gongcheng@mail.tsinghua.edu.cn
