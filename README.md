@@ -18,6 +18,17 @@ Previously, only the codon optimization strategy focusing on CAI had been intens
 - **Modular design** for easy integration into existing pipelines
 - **Comprehensive validation** against SARS-CoV-2 Spike protein sequences
 
+## 📁 File Description
+- src: Source code modules  
+- codonpair_optimal.py: Main optimization algorithm
+- cpb_calculation.py: CPB score computation
+- data: Data files
+- CPS_huamn.csv: Codon Pair Score (CPS) for humans 
+- replace_codonpair.csv: High-frequency codon pair list
+- examples: Usage examples
+- SARS2_S_WT.fasta: Example of SARS-CoV-2 prototype spike protein sequence
+- requirements.txt: Python dependencies
+
 ## 🔧 Modules Description
 **1. Codon Pair Optimization** (src/Codonpair_Optimal.py)
 
