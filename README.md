@@ -2,13 +2,13 @@
 
 # 3D mRNA Optimization
 
-This repertory narrates a three-dimensional (3D) mRNA optimization algorithm incorporating codon adaptation index (CAI), minimum free energy (MFE), and most notably, codon pair bias (CPB) for enhanced vaccine potency. The algorithm is implemented in the paper:
+This repository describes a three-dimensional (3D) mRNA optimization algorithm incorporating codon adaptation index (CAI), minimum free energy (MFE), and, most notably, codon pair bias (CPB) for enhanced vaccine potency. The algorithm is implemented in the paper:
 
 > **Codon-pair-aware optimization of the mRNA coding sequence yields unmodified SARS-CoV-2 vaccines matching an N1-methylpseudouridine-modified benchmark**  
 
 ## 🧬 Overview
 
-Previously, only the codon optimization strategy focusing on CAI had been intensively adopted in the vaccine sequence design, and merely a few studies included the consideration of secondary structure of RNA (which could be, at least partially represented by MFE). Here, we propose a novel 3D algorithm which takes a step further to introduce **codon pair bias (CPB)** as a third critical dimension, enabling the generation of mRNA sequences with enhanced translational characteristics and improved vaccine immunogenicity. Candidate vaccines designed by this algorithm are likely to trigger more robust immonogeneity and provide more well-rounded protection against infection comparing with prior 1D and 2D optimization. 
+Previously, only the codon optimization strategy focusing on CAI had been intensively adopted in vaccine sequence design, and merely a few studies included consideration of RNA secondary structure (which could be, at least partially, represented by MFE). Here, we propose a novel 3D algorithm that takes a step further to introduce **codon pair bias (CPB)** as a third critical dimension, enabling the generation of mRNA sequences with enhanced translational characteristics and improved vaccine immunogenicity. Candidate vaccines designed by this algorithm are likely to trigger more robust immunogenicity and provide more well-rounded protection against infection compared with prior 1D and 2D optimization. 
 
 ## ✨ Key Features
 
